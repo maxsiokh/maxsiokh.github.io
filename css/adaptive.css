@@ -1,0 +1,39 @@
+@media only screen and (max-width: 790px) {
+  .intro-title {
+    font-size: 30px;
+  }
+  .intro-text {
+    width: 300px;
+  }
+  .intro-img {
+    width: 250px;
+    height: 250px;
+  }
+  .intro-suptitle {
+    width: 300px;
+  }
+  .about-inner {
+    flex-direction: column;
+  }
+  .about-inner img {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro-img {
+    display: none;
+  }
+  .intro-inner {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-inner img {
+    width: 300px;
+    height: 300px;
+  }
+  .contact-email-text {
+    font-size: 20px;
+  }
+}
