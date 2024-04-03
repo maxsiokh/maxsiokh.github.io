@@ -1,7 +1,20 @@
+@media only screen and (max-width: 1150px) {
+  .modal-content {
+    max-width: 55%;
+  }
+}
 @media only screen and (max-width: 790px) {
+  .modal-content {
+    max-width: 80%;
+  }
+  .modal {
+    flex-direction: column;
+  }
+
   .intro-title {
     font-size: 30px;
   }
+
   .intro-text {
     width: 300px;
   }
@@ -35,5 +48,24 @@
   }
   .contact-email-text {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .image {
+    overflow: visible;
+    padding-top: 10px;
+  }
+  .image img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 }
