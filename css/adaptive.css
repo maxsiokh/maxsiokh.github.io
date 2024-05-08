@@ -40,6 +40,9 @@
     text-align: center;
     justify-content: center;
   }
+  .header-inner {
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 425px) {
   .about-inner img {

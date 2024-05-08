@@ -212,6 +212,7 @@ h6 {
   object-fit: cover;
   object-position: center;
   transition: 0.25s;
+  padding: 5px;
 }
 .image:hover img {
   transform: scale(1.2);
